@@ -52,8 +52,8 @@ export default function SignupPage() {
     <div className="min-h-screen flex bg-white">
       <div className="bg-secondary h-screen hidden md:flex w-1/2 items-center justify-center">
         <Image
+          src="/images/signup/signupBanner.png"
           alt="Picture of the signupBanner"
-          src="/images/signup/image.png"
           height={344}
           width={613}
           loading="lazy"
@@ -231,4 +231,3 @@ export default function SignupPage() {
     </div>
   );
 }
-
