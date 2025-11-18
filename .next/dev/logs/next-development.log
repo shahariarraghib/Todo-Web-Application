@@ -73,3 +73,160 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
 [00:00:56.358] Browser WARN    Image with src "/images/signup/signupBanner.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:00:56.358] Browser WARN    Image with src "/images/signup/signupBanner.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:52.127] Browser WARN    Image with src "/images/login/loginBanner.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:05:52.127] Browser WARN    Image with src "/images/login/loginBanner.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:05:52.127] Browser WARN    Image with src "/images/login/loginBanner.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:05.273] Browser LOG     null
+[00:06:05.273] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:06:05.273] Browser LOG     null
+[00:06:05.273] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:06:05.273] Browser WARN    Image with src "/images/dashboard/info.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:05.273] Browser WARN    Image with src "/images/dashboard/logout.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:05.273] Browser WARN    Image with src "/images/dashboard/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:05.273] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:06:05.273] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:06:05.273] Browser WARN    Image with src "/images/dashboard/add.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:05.273] Browser WARN    Image with src "/images/dashboard/Frame.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:05.273] Browser WARN    Image with src "/images/dashboard/icon-edit.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:05.273] Browser WARN    Image with src "/images/dashboard/Combined-Shape-edit.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:05.273] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:06:05.273] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:07:28.244] Browser ERROR   ./components/todos/EditTaskModal.tsx:92:23
+Parsing ecmascript source code failed
+  90 |                                   height={20}
+  91 |                                 />
+> 92 |                 </svg>
+     |                       ^
+> 93 |               </button>
+     | ^^^^^^^^^^^^^^^
+  94 |             </div>
+  95 |           </div>
+  96 |
+
+Expected '</', got 'jsx text (
+              )'
+
+Import traces:
+  Client Component Browser:
+    ./components/todos/EditTaskModal.tsx [Client Component Browser]
+    ./components/TodoList.tsx [Client Component Browser]
+    ./components/TodoList.tsx [Server Component]
+    ./app/todos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/todos/EditTaskModal.tsx [Client Component SSR]
+    ./components/TodoList.tsx [Client Component SSR]
+    ./components/TodoList.tsx [Server Component]
+    ./app/todos/page.tsx [Server Component]
+[00:07:31.567] Browser ERROR   ./components/todos/EditTaskModal.tsx:92:23
+Parsing ecmascript source code failed
+  90 |                                   height={20}
+  91 |                                 />
+> 92 |                 </svg>
+     |                       ^
+> 93 |               </button>
+     | ^^^^^^^^^^^^^^^
+  94 |             </div>
+  95 |           </div>
+  96 |
+
+Expected '</', got 'jsx text (
+              )'
+
+Import traces:
+  Client Component Browser:
+    ./components/todos/EditTaskModal.tsx [Client Component Browser]
+    ./components/TodoList.tsx [Client Component Browser]
+    ./components/TodoList.tsx [Server Component]
+    ./app/todos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/todos/EditTaskModal.tsx [Client Component SSR]
+    ./components/TodoList.tsx [Client Component SSR]
+    ./components/TodoList.tsx [Server Component]
+    ./app/todos/page.tsx [Server Component]
+[00:07:34.100] Browser ERROR   ./components/todos/EditTaskModal.tsx:93:23
+Parsing ecmascript source code failed
+  91 |                                   height={20}
+  92 |                                 />
+> 93 |                 </svg>
+     |                       ^
+> 94 |               </button>
+     | ^^^^^^^^^^^^^^^
+  95 |             </div>
+  96 |           </div>
+  97 |
+
+Expected '</', got 'jsx text (
+              )'
+
+Import traces:
+  Client Component Browser:
+    ./components/todos/EditTaskModal.tsx [Client Component Browser]
+    ./components/TodoList.tsx [Client Component Browser]
+    ./components/TodoList.tsx [Server Component]
+    ./app/todos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/todos/EditTaskModal.tsx [Client Component SSR]
+    ./components/TodoList.tsx [Client Component SSR]
+    ./components/TodoList.tsx [Server Component]
+    ./app/todos/page.tsx [Server Component]
+[00:07:34.241] Browser ERROR   ./components/todos/EditTaskModal.tsx:93:23
+Parsing ecmascript source code failed
+  91 |                                   height={20}
+  92 |                                 />
+> 93 |                 </svg>
+     |                       ^
+> 94 |               </button>
+     | ^^^^^^^^^^^^^^^
+  95 |             </div>
+  96 |           </div>
+  97 |
+
+Expected '</', got 'jsx text (
+              )'
+
+Import traces:
+  Client Component Browser:
+    ./components/todos/EditTaskModal.tsx [Client Component Browser]
+    ./components/TodoList.tsx [Client Component Browser]
+    ./components/TodoList.tsx [Server Component]
+    ./app/todos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/todos/EditTaskModal.tsx [Client Component SSR]
+    ./components/TodoList.tsx [Client Component SSR]
+    ./components/TodoList.tsx [Server Component]
+    ./app/todos/page.tsx [Server Component]
+[00:07:38.411] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:07:38.411] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:07:47.849] Browser WARN    Image with src "/images/dashboard/Combined-Shape.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:15.168] Browser ERROR   ./components/todos/EditTaskModal.tsx:88:25
+Parsing ecmascript source code failed
+  86 |               >
+  87 |                 <Image
+> 88 |                   src="/images/dashboard/datecal.png"
+     |                         ^^^^^^
+  89 |                   alt=""
+  90 |                   width={20}
+  91 |                   height={20}
+
+Expected '</', got 'images'
+
+Import traces:
+  Client Component Browser:
+    ./components/todos/EditTaskModal.tsx [Client Component Browser]
+    ./components/TodoList.tsx [Client Component Browser]
+    ./components/TodoList.tsx [Server Component]
+    ./app/todos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/todos/EditTaskModal.tsx [Client Component SSR]
+    ./components/TodoList.tsx [Client Component SSR]
+    ./components/TodoList.tsx [Server Component]
+    ./app/todos/page.tsx [Server Component]
+[00:08:18.868] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:08:18.868] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}

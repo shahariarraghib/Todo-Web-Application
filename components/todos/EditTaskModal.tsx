@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useRef } from "react";
 
 type Priority = "extreme" | "moderate" | "low";
@@ -25,6 +26,29 @@ export default function EditTaskModal({
   onSubmit: () => void;
 }) {
   const editDateInputRef = useRef<HTMLInputElement>(null);
+  const hiddenDateInputRef = useRef<HTMLInputElement>(null);
+
+  const formatDateForDisplay = (dateString: string) => {
+    if (!dateString) return "";
+    const date = new Date(dateString);
+    const months = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
+    return `${
+      months[date.getMonth()]
+    } ${date.getDate()}, ${date.getFullYear()}`;
+  };
 
   if (!isOpen) return null;
 
@@ -38,13 +62,18 @@ export default function EditTaskModal({
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-start justify-between mb-6">
-          <h3 className="text-2xl font-semibold text-gray-900">Edit Task</h3>
+          <div>
+            {" "}
+            <h3 className="text-2xl font-semibold text-gray-900">Edit Task</h3>
+            <div className="border-b-2 border-[#5272FF] w-[50px] mb-6"></div>
+          </div>
           <div className="border-b-2 border-[#5272FF] w-[100px] absolute top-12 left-8"></div>
           <button
             onClick={onClose}
             className="text-gray-500 hover:text-gray-700 text-sm"
           >
             Go Back
+            <div className="border-b-1 border-black w-[55px] mb-6"></div>
           </button>
         </div>
 
@@ -56,7 +85,7 @@ export default function EditTaskModal({
             <input
               value={formData.title}
               onChange={(e) => onChange({ title: e.target.value })}
-              className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full border border-gray-300 rounded-lg px-4 py-3 "
               placeholder="Enter task title"
             />
           </div>
@@ -68,30 +97,36 @@ export default function EditTaskModal({
             <div className="relative">
               <input
                 ref={editDateInputRef}
-                type="date"
-                value={formData.todo_date}
-                onChange={(e) => onChange({ todo_date: e.target.value })}
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 pr-10 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                type="text"
+                value={
+                  formData.todo_date
+                    ? formatDateForDisplay(formData.todo_date)
+                    : ""
+                }
+                readOnly
+                onClick={() => hiddenDateInputRef.current?.showPicker()}
+                className="w-full border border-gray-300 rounded-lg px-4 py-3 pr-10 cursor-pointer"
+                placeholder="Select date"
               />
               <button
                 type="button"
-                onClick={() => editDateInputRef.current?.showPicker()}
-                className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer p-1 hover:bg-gray-100 rounded transition"
+                onClick={() => hiddenDateInputRef.current?.showPicker()}
+                className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer p-1 z-10"
               >
-                <svg
-                  className="w-5 h-5 text-gray-400"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  />
-                </svg>
+                <Image
+                  src="/images/dashboard/datecal.png"
+                  alt=""
+                  width={20}
+                  height={20}
+                />
               </button>
+              <input
+                ref={hiddenDateInputRef}
+                type="date"
+                value={formData.todo_date}
+                onChange={(e) => onChange({ todo_date: e.target.value })}
+                className="absolute inset-0 opacity-0 w-full h-full cursor-pointer pointer-events-none"
+              />
             </div>
           </div>
 
@@ -272,4 +307,3 @@ export default function EditTaskModal({
     </div>
   );
 }
-

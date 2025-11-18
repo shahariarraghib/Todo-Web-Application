@@ -112,7 +112,7 @@ export default function AddTaskModal({
               <button
                 type="button"
                 onClick={() => hiddenDateInputRef.current?.showPicker()}
-                className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer p-1 hover:bg-gray-100 rounded transition z-10"
+                className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer p-1  z-10"
               >
                 <Image
                   src="/images/dashboard/datecal.png"
