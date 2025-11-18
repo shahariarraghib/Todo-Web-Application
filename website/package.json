@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build": "next build",
+    "start": "next start",
     "local": "cross-env NODE_ENV=loc next dev",
     "build:local": "cross-env NODE_ENV=loc next build",
     "start:local": "cross-env NODE_ENV=loc next start",
