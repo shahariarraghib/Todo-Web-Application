@@ -222,7 +222,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                     />
                     <button className="hidden md:block text-gray-600 hover:text-gray-800">
                       <Image
-                        src="/images/dashboard/cal.png"
+                        src="/images/dashboard/Cal.png"
                         alt="logo"
                         height={35}
                         width={35}
