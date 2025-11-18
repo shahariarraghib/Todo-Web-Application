@@ -230,3 +230,924 @@ Import traces:
     ./app/todos/page.tsx [Server Component]
 [00:08:18.868] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
 [00:08:18.868] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:14:38.010] Browser ERROR   ./app/page.tsx:7:14
+Ecmascript file had an error
+   5 | import { useAuth } from "@/components/AuthProvider";
+   6 |
+>  7 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:14:43.907] Browser ERROR   ./app/page.tsx:7:14
+Ecmascript file had an error
+   5 | import { useAuth } from "@/components/AuthProvider";
+   6 |
+>  7 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:14:45.447] Browser ERROR   ./app/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { SeoContent } from "@/content/SeoContent";
+   7 |
+>  8 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:14:45.447] Browser ERROR   ./app/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { SeoContent } from "@/content/SeoContent";
+   7 |
+>  8 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:14:48.863] Browser ERROR   ./app/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { SeoContent } from "@/content/SeoContent";
+   7 |
+>  8 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:15:38.462] Browser ERROR   ./app/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { SeoContent } from "@/content/SeoContent";
+   7 |
+>  8 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:15:50.338] Browser ERROR   ./app/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { SeoContent } from "@/content/SeoContent";
+   7 |
+>  8 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:15:55.326] Browser ERROR   ./app/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { SeoContent } from "@/content/SeoContent";
+   7 |
+>  8 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:15:57.230] Browser ERROR   ./app/page.tsx:9:14
+Ecmascript file had an error
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+   8 |
+>  9 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:16:16.578] Browser LOG     null
+[00:16:16.578] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:16:16.578] Browser ERROR   ./app/page.tsx:9:14
+Ecmascript file had an error
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+   8 |
+>  9 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:16:16.578] Browser LOG     null
+[00:16:16.578] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:16:16.578] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html suppressHydrationWarning={true} lang="en">
+                          <head>
+                          <body
+                            className="bg-white text-black dark:bg-dark dark:text-white"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <SegmentViewNode type="page" pagePath="todos/page...">
+                                <SegmentTrieNode>
+                                <TodosPage>
+                                  <DashboardLayout>
+                                    <ProtectedRoute>
+                                      <div
++                                       className="min-h-screen bg-[#E2ECF8] flex flex-col"
+-                                       className="min-h-screen flex items-center justify-center"
+                                      >
+                                        <div
++                                         className="flex flex-1 relative"
+-                                         className="text-center"
+                                        >
++                                         <aside
++                                           className="fixed md:static inset-y-0 left-0 z-50 w-64 bg-[#0D224A] text-wh..."
++                                         >
+-                                         <p className="text-lg">
+                                          ...
+                  ...
+
+[00:16:16.717] Browser ERROR   ./app/page.tsx:9:14
+Ecmascript file had an error
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+   8 |
+>  9 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:16:16.717] Browser WARN    Image with src "/images/dashboard/info.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:16.717] Browser WARN    Image with src "/images/dashboard/logout.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:16.717] Browser WARN    Image with src "/images/dashboard/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:16.717] Browser LOG     null
+[00:16:16.717] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:16:16.933] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:16:16.933] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:16:17.332] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:16:17.332] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:16:17.332] Browser WARN    Image with src "/images/dashboard/add.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:17.332] Browser WARN    Image with src "/images/dashboard/Frame.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:17.332] Browser WARN    Image with src "/images/dashboard/Combined-Shape-edit.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:17.332] Browser WARN    Image with src "/images/dashboard/icon-edit.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:17:40.800] Browser ERROR   ./app/page.tsx:9:14
+Ecmascript file had an error
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+   8 |
+>  9 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:17:46.822] Browser ERROR   ./app/page.tsx:9:14
+Ecmascript file had an error
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+   8 |
+>  9 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:18:02.795] Browser ERROR   ./app/page.tsx:9:14
+Ecmascript file had an error
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+   8 |
+>  9 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:19:02.613] Browser ERROR   ./app/page.tsx:9:14
+Ecmascript file had an error
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+   8 |
+>  9 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:19:27.659] Browser ERROR   ./app/page.tsx:9:14
+Ecmascript file had an error
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+   8 |
+>  9 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:19:37.210] Browser LOG     null
+[00:19:37.210] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:19:37.210] Browser ERROR   ./app/page.tsx:9:14
+Ecmascript file had an error
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+   8 |
+>  9 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:19:37.210] Browser LOG     null
+[00:19:37.210] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:19:37.210] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html suppressHydrationWarning={true} lang="en">
+                          <head>
+                          <body
+                            className="bg-white text-black dark:bg-dark dark:text-white"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <SegmentViewNode type="page" pagePath="todos/page...">
+                                <SegmentTrieNode>
+                                <TodosPage>
+                                  <DashboardLayout>
+                                    <ProtectedRoute>
+                                      <div
++                                       className="min-h-screen bg-[#E2ECF8] flex flex-col"
+-                                       className="min-h-screen flex items-center justify-center"
+                                      >
+                                        <div
++                                         className="flex flex-1 relative"
+-                                         className="text-center"
+                                        >
++                                         <aside
++                                           className="fixed md:static inset-y-0 left-0 z-50 w-64 bg-[#0D224A] text-wh..."
++                                         >
+-                                         <p className="text-lg">
+                                          ...
+                  ...
+
+[00:19:37.210] Browser ERROR   ./app/page.tsx:9:14
+Ecmascript file had an error
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+   8 |
+>  9 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:19:37.210] Browser LOG     null
+[00:19:37.210] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:19:37.210] Browser WARN    Image with src "/images/dashboard/info.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:37.210] Browser WARN    Image with src "/images/dashboard/logout.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:37.210] Browser WARN    Image with src "/images/dashboard/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:37.493] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:19:37.493] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:19:37.493] Browser WARN    Image with src "/images/dashboard/add.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:37.493] Browser WARN    Image with src "/images/dashboard/Frame.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:37.493] Browser WARN    Image with src "/images/dashboard/icon-edit.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:37.493] Browser WARN    Image with src "/images/dashboard/Combined-Shape-edit.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:37.493] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:19:37.493] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:20:27.640] Browser ERROR   ./app/page.tsx:9:14
+Ecmascript file had an error
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+   8 |
+>  9 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:21:21.772] Browser ERROR   ./app/page.tsx:9:14
+Ecmascript file had an error
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+   8 |
+>  9 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   const auth = useAuth();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:21:23.088] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:21:23.088] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:22:59.757] Browser ERROR   ./app/page.tsx:6:14
+Ecmascript file had an error
+  4 | import { useRouter } from "next/navigation";
+  5 | import { useAuth } from "@/components/AuthProvider";
+> 6 | export const metadata = generateMetadata(SeoContent.baseSeo);
+    |              ^^^^^^^^
+  7 | export default function Home() {
+  8 |   const auth = useAuth();
+  9 |   const router = useRouter();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:03.333] Browser ERROR   ./app/page.tsx:6:14
+Ecmascript file had an error
+  4 | import { useRouter } from "next/navigation";
+  5 | import { useAuth } from "@/components/AuthProvider";
+> 6 | export const metadata = generateMetadata(SeoContent.baseSeo);
+    |              ^^^^^^^^
+  7 | export default function Home() {
+  8 |   const auth = useAuth();
+  9 |   const router = useRouter();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:04.632] Browser ERROR   ./app/page.tsx:7:14
+Ecmascript file had an error
+   5 | import { useAuth } from "@/components/AuthProvider";
+   6 | import { SeoContent } from "@/content/SeoContent";
+>  7 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   8 | export default function Home() {
+   9 |   const auth = useAuth();
+  10 |   const router = useRouter();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:08.978] Browser ERROR   ./app/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { SeoContent } from "@/content/SeoContent";
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+>  8 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   9 | export default function Home() {
+  10 |   const auth = useAuth();
+  11 |   const router = useRouter();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:11.299] Browser ERROR   ./app/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { SeoContent } from "@/content/SeoContent";
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+>  8 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   9 | export default function Home() {
+  10 |   const auth = useAuth();
+  11 |   const router = useRouter();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:11.299] Browser LOG     null
+[00:23:11.299] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:23:11.299] Browser LOG     null
+[00:23:11.299] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:23:11.299] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/todos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html suppressHydrationWarning={true} lang="en">
+                          <head>
+                          <body
+                            className="bg-white text-black dark:bg-dark dark:text-white"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <SegmentViewNode type="page" pagePath="todos/page...">
+                                <SegmentTrieNode>
+                                <TodosPage>
+                                  <DashboardLayout>
+                                    <ProtectedRoute>
+                                      <div
++                                       className="min-h-screen bg-[#E2ECF8] flex flex-col"
+-                                       className="min-h-screen flex items-center justify-center"
+                                      >
+                                        <div
++                                         className="flex flex-1 relative"
+-                                         className="text-center"
+                                        >
++                                         <aside
++                                           className="fixed md:static inset-y-0 left-0 z-50 w-64 bg-[#0D224A] text-wh..."
++                                         >
+-                                         <p className="text-lg">
+                                          ...
+                  ...
+
+[00:23:11.299] Browser ERROR   ./app/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { SeoContent } from "@/content/SeoContent";
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+>  8 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   9 | export default function Home() {
+  10 |   const auth = useAuth();
+  11 |   const router = useRouter();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:11.299] Browser LOG     null
+[00:23:11.299] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:23:11.299] Browser WARN    Image with src "/images/dashboard/info.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:11.299] Browser WARN    Image with src "/images/dashboard/logout.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:11.299] Browser WARN    Image with src "/images/dashboard/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:11.551] Browser WARN    Image with src "/images/dashboard/add.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:11.551] Browser WARN    Image with src "/images/dashboard/Frame.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:11.551] Browser WARN    Image with src "/images/dashboard/icon-edit.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:11.551] Browser WARN    Image with src "/images/dashboard/Combined-Shape-edit.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:11.875] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:23:11.875] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:23:11.875] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:23:11.875] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:23:20.162] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | import { useRouter } from "next/navigation";
+  3 | import { useAuth } from "@/components/AuthProvider";
+  4 | import { SeoContent } from "@/content/SeoContent";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:23:20.162] Browser ERROR   ./app/page.tsx:2:10
+Ecmascript file had an error
+  1 | import { useEffect } from "react";
+> 2 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  3 | import { useAuth } from "@/components/AuthProvider";
+  4 | import { SeoContent } from "@/content/SeoContent";
+  5 | import { generateMetadata } from "@/utility/generateMetadata";
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:23:23.083] Browser LOG     null
+[00:23:23.083] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:23:23.083] Browser LOG     null
+[00:23:23.083] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:23:23.083] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="todos/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/todos" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                      <SegmentViewNode type="page" pagePath="todos/page...">
+                        <SegmentTrieNode>
+                        <TodosPage>
+                          <DashboardLayout>
+                            <ProtectedRoute>
+                              <div
++                               className="min-h-screen bg-[#E2ECF8] flex flex-col"
+-                               className="min-h-screen flex items-center justify-center"
+                              >
+                                <div
++                                 className="flex flex-1 relative"
+-                                 className="text-center"
+                                >
++                                 <aside
++                                   className="fixed md:static inset-y-0 left-0 z-50 w-64 bg-[#0D224A] text-white flex..."
++                                 >
+-                                 <p className="text-lg">
+                                  ...
+                      ...
+                    ...
+          ...
+
+[00:23:23.083] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | import { useRouter } from "next/navigation";
+  3 | import { useAuth } from "@/components/AuthProvider";
+  4 | import { SeoContent } from "@/content/SeoContent";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:23:23.083] Browser ERROR   ./app/page.tsx:2:10
+Ecmascript file had an error
+  1 | import { useEffect } from "react";
+> 2 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  3 | import { useAuth } from "@/components/AuthProvider";
+  4 | import { SeoContent } from "@/content/SeoContent";
+  5 | import { generateMetadata } from "@/utility/generateMetadata";
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:23:23.083] Browser LOG     null
+[00:23:23.083] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:23:23.083] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | import { useRouter } from "next/navigation";
+  3 | import { useAuth } from "@/components/AuthProvider";
+  4 | import { SeoContent } from "@/content/SeoContent";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:23:23.083] Browser ERROR   ./app/page.tsx:2:10
+Ecmascript file had an error
+  1 | import { useEffect } from "react";
+> 2 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  3 | import { useAuth } from "@/components/AuthProvider";
+  4 | import { SeoContent } from "@/content/SeoContent";
+  5 | import { generateMetadata } from "@/utility/generateMetadata";
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:23:23.083] Browser WARN    Image with src "/images/dashboard/logout.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:23.083] Browser WARN    Image with src "/images/dashboard/info.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:23.083] Browser WARN    Image with src "/images/dashboard/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:23.083] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:23:23.083] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:23:23.083] Browser WARN    Image with src "/images/dashboard/add.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:23.083] Browser WARN    Image with src "/images/dashboard/icon-edit.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:23.083] Browser WARN    Image with src "/images/dashboard/Frame.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:23.083] Browser WARN    Image with src "/images/dashboard/Combined-Shape-edit.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:23.083] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:23:23.083] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:23:30.502] Browser ERROR   ./app/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { SeoContent } from "@/content/SeoContent";
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+>  8 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   9 | export default function Home() {
+  10 |   const auth = useAuth();
+  11 |   const router = useRouter();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:24:36.463] Browser ERROR   ./app/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { SeoContent } from "@/content/SeoContent";
+   7 | import { generateMetadata } from "@/utility/generateMetadata";
+>  8 | export const metadata = generateMetadata(SeoContent.baseSeo);
+     |              ^^^^^^^^
+   9 | export default function Home() {
+  10 |   const auth = useAuth();
+  11 |   const router = useRouter();
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:24:38.276] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:24:38.276] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:25:36.022] Browser LOG     null
+[00:25:36.022] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:25:36.022] Browser LOG     null
+[00:25:36.022] Browser LOG     [2;38;2;124;124;124m%s[0m null
+[00:25:36.385] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:25:36.385] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:25:36.526] Browser LOG     {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
+[00:25:36.526] Browser LOG     [2;38;2;124;124;124m%s[0m {"address":"cncncvnasfafasf","bio":"","birthday":"2025-11-28","contact_number":"2523523","email":"asdfasdf@gmail.com","first_name":"asdfasdf","id":83,"last_name":"asdfasdfstsetsetsetsetst","profile_image":"https://pioneer-alpha-website-django-s3-bucket-new-2.s3.amazonaws.com/todo-app/media/profiles/Screenshot_2025-09-03_205136_9nUJZRk.png"}
