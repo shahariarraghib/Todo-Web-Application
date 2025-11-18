@@ -66,37 +66,7 @@ __turbopack_context__.s([
 ]);
 const SeoContent = {
     baseSeo: {
-        title: "AI Headshot Generator | InstaHeadshots",
-        description: "",
-        image: "/images/home/home.png",
-        siteUrl: ("TURBOPACK compile-time value", ""),
-        keywords: [
-            "lorem ipsum",
-            "lorem ipsum "
-        ]
-    },
-    privacySeo: {
-        title: "Privacy | InstaHeadshots",
-        description: "",
-        image: "/images/privacy/privacy.png",
-        siteUrl: `${("TURBOPACK compile-time value", "")}/privacy`,
-        keywords: [
-            "lorem ipsum",
-            "lorem ipsum "
-        ]
-    },
-    termsSeo: {
-        title: "Terms | InstaHeadshots",
-        description: "",
-        image: "/images/terms/terms.png",
-        siteUrl: `${("TURBOPACK compile-time value", "")}/terms`,
-        keywords: [
-            "lorem ipsum",
-            "lorem ipsum "
-        ]
-    },
-    errorSeo: {
-        title: "No Data Found | InstaHeadshots",
+        title: "todo web application | todo web application",
         description: "",
         image: "/images/home/home.png",
         siteUrl: ("TURBOPACK compile-time value", ""),
@@ -152,8 +122,8 @@ function generateMetadata(seoContent) {
             card: "summary_large_image"
         },
         robots: "index, follow",
-        creator: "biota",
-        publisher: "biota"
+        creator: "todo web application",
+        publisher: "todo web application"
     };
     return metadata;
 }

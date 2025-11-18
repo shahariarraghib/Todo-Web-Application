@@ -34,8 +34,8 @@ export function generateMetadata(seoContent: SeoContent): Metadata {
             card: "summary_large_image"
         },
         robots: "index, follow",
-        creator: "biota",
-        publisher: "biota"
+        creator: "todo web application",
+        publisher: "todo web application"
     };
 
     return metadata;
