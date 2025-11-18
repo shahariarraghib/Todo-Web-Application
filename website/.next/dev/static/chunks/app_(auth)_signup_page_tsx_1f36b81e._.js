@@ -6,7 +6,7 @@
   "static/chunks/node_modules_react-icons_ai_index_mjs_9504e8ee._.js",
   "static/chunks/node_modules_react-icons_lib_844c6c50._.js",
   "static/chunks/node_modules_react-hook-form_dist_index_esm_mjs_24778450._.js",
-  "static/chunks/_b9126d8c._.js"
+  "static/chunks/_6ae8b345._.js"
 ],
     source: "dynamic"
 });

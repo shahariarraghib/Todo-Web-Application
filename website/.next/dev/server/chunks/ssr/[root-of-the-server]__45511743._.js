@@ -105,6 +105,19 @@ const setAuthToken = (token)=>{
     if (token) api.defaults.headers.common["Authorization"] = `Bearer ${token}`;
     else delete api.defaults.headers.common["Authorization"];
 };
+// Add request interceptor to ensure token is always included
+api.interceptors.request.use((config)=>{
+    // Try to get token from localStorage (check both possible keys)
+    if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+    ;
+    // If data is FormData, remove Content-Type header to let axios set it automatically with boundary
+    if (config.data instanceof FormData) {
+        delete config.headers["Content-Type"];
+    }
+    return config;
+}, (error)=>{
+    return Promise.reject(error);
+});
 const __TURBOPACK__default__export__ = api;
 }),
 "[project]/lib/auth.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
@@ -136,6 +149,8 @@ __turbopack_context__.s([
     ()=>saveToken,
     "signup",
     ()=>signup,
+    "updateProfile",
+    ()=>updateProfile,
     "updateTodo",
     ()=>updateTodo
 ]);
@@ -180,6 +195,31 @@ const getProfile = async ()=>{
 };
 const changePassword = async (data)=>{
     const res = await __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$apiHook$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].post("/api/users/change-password/", data);
+    return res.data;
+};
+const updateProfile = async (data)=>{
+    // Ensure token is loaded before making request
+    const token = loadToken() || (("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : null);
+    if (!token) {
+        throw new Error("No authentication token found");
+    }
+    // Ensure token is set in axios instance
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$apiHook$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["setAuthToken"])(token);
+    const formData = new FormData();
+    // Append all fields, including empty strings to clear fields if needed
+    if (data.first_name !== undefined) formData.append("first_name", data.first_name);
+    if (data.last_name !== undefined) formData.append("last_name", data.last_name);
+    if (data.email !== undefined) formData.append("email", data.email);
+    if (data.address !== undefined) formData.append("address", data.address);
+    if (data.contact_number !== undefined) formData.append("contact_number", data.contact_number);
+    if (data.birthday !== undefined) formData.append("birthday", data.birthday);
+    // Append file if it exists and is a File object
+    if (data.profile_image && data.profile_image instanceof File) {
+        formData.append("profile_image", data.profile_image, data.profile_image.name);
+    }
+    // Send FormData - axios will automatically set Content-Type to multipart/form-data with boundary
+    // The interceptor will handle removing the default Content-Type header
+    const res = await __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$apiHook$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].patch("/api/users/me/", formData);
     return res.data;
 };
 const fetchTodos = async ()=>{

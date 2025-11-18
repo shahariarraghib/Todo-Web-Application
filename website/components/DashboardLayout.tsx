@@ -77,7 +77,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
             />
           )}
 
-          {/* Sidebar */}
+         
           <aside
             className={`fixed md:static inset-y-0 left-0 z-50 w-64 bg-[#0D224A] text-white flex flex-col transform transition-transform duration-300 ease-in-out ${
               sidebarOpen
@@ -85,7 +85,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                 : "-translate-x-full md:translate-x-0"
             }`}
           >
-            {/* Profile Section */}
+         
             <div className="p-4  ">
               <div className="flex items-center justify-between mb-4 md:mb-0 md:flex-col">
                 <div className="flex items-center gap-3 md:flex-col mt-15">
@@ -97,7 +97,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                         className="w-full h-full object-cover"
                       />
                     ) : (
-                      <span className="text-xl md:text-3xl">👤</span>
+                      <span className="text-xl md:text-3xl"></span>
                     )}
                   </div>
                   <div className="text-left md:text-center">
@@ -109,7 +109,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                     </p>
                   </div>
                 </div>
-                {/* Close button for mobile */}
+              
                 <button
                   onClick={() => setSidebarOpen(false)}
                   className="md:hidden text-white hover:text-gray-300 p-2"
@@ -131,7 +131,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
               </div>
             </div>
 
-            {/* Navigation */}
+    
             <nav className="flex-1 overflow-y-auto mt-10">
               <ul className="space-y-2 ">
                 {MenuData.map((item) => (
@@ -160,11 +160,11 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
               </ul>
             </nav>
 
-            {/* Logout */}
+         
             <div className="p-3 ">
               <button
                 onClick={handleLogout}
-                className="w-full flex items-center gap-2 md:gap-3 px-3 md:px-4 py-2 md:py-3 rounded-lg text-blue-200 hover:bg-blue-800 hover:text-white transition-colors text-sm md:text-base"
+                className="w-full flex items-center gap-2 md:gap-3 px-3 md:px-4 py-2 md:py-3 rounded-lg text-blue-200  text-sm md:text-base"
               >
                 <Image
                   src="/images/dashboard/logout.png"
@@ -177,13 +177,13 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
             </div>
           </aside>
 
-          {/* Main Content */}
+     
           <main className="flex-1 overflow-y-auto">
             <div className="w-full">
-              {/* Header inside main content area */}
+            
               <header className="bg-white py-6 mb-6">
                 <div className="flex items-center justify-between px-20">
-                  {/* Mobile Menu Button - Left Side */}
+                
                   <button
                     onClick={() => setSidebarOpen(!sidebarOpen)}
                     className="md:hidden absolute left-3 md:left-6 text-gray-600 hover:text-gray-800 p-2"
@@ -203,7 +203,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                     </svg>
                   </button>
 
-                  {/* Right Side Content */}
+             
 
                   <div className="">
                     <Image

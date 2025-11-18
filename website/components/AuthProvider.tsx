@@ -34,7 +34,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     return null;
   });
 
-  // ✅ Keep localStorage in sync whenever token or user changes
+
   useEffect(() => {
     if (token) {
       localStorage.setItem("token", token);
@@ -49,7 +49,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     }
   }, [token, user]);
 
-  // ✅ Handlers
+  
   const login = (userData: User, authToken: string) => {
     setUser(userData);
     setToken(authToken);
